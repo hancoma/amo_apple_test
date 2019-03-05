@@ -34,11 +34,10 @@
   <plugin name="cordova-plugin-splashscreen" 
   spec="https://github.com/apache/cordova-plugin-splashscreen.git" />
 <plugin name="cordova-plugin-firebase" spec="~1.0.5" />
-<plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
 <plugin name="cordova-plugin-document-viewer" spec="^0.9.9" />
 
     <preference name="SplashScreenDelay" value="0" />
-    
+
     <plugin name="cordova-plugin-wkwebview-engine" spec="^1.1.3" />
 <gap:plugin name="cordova-plugin-x-toast" source="npm" />
 <feature name="Toast">

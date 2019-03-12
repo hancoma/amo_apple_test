@@ -63,7 +63,21 @@
 <preference name="StatusBarBackgroundColor" value="#ffffff" />
 <preference name="StatusBarStyle" value="lightcontent" />
 <plugin spec="https://github.com/apache/cordova-plugin-statusbar.git" source="git" />
+<platform name="ios">
 
+     <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+
+          <string>Used to attach photos to my project</string>
+
+     </edit-config>
+
+     <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+
+          <string>Used to attach photos to my project</string>
+
+     </edit-config>
+
+</platform>
     
   <icon src="www/icon.png"/>
   <platform name="android">

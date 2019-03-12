@@ -1,0 +1,5 @@
+<key>NSCameraUsageDescription</key>
+<string>We are using the Camera to (blah blah blah, your explanation)</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>We are using the Photo Library to (your reason)</string>
+<key>NSMainNibFile</key>
